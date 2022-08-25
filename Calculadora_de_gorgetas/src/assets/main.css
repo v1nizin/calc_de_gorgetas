@@ -1,0 +1,52 @@
+@import "./base.css";
+
+.calc{
+  border: 3px solid #0e37be;
+  padding: 30px;
+  max-width: 830px;
+  display: block;
+  background-color: #2b4fc2;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00208a;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+.valores-forms {
+  display: grid;
+  margin-top: 17px;
+}
+input, select{
+  height: 30px;
+  padding-left: 10px;
+}
+
+span{
+  margin-left: 5px;
+}
+label{
+  font-size: 1.1em;
+}
+.resultado {
+  background-color: #2b4fc2;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  color: cyan ;
+  border: solid #0e37be;
+  border-top: none;
+}
+.resultado span {
+  font-size: 2em;
+}
